@@ -30,10 +30,10 @@ public class Test {
         // Check if a command-line argument was provided
         if (args.length > 0) {
         	array_nb = new int[args.length];
+
         	for (int i = 0; i < args.length; i++)
         	{
         		array_nb[i] = Integer.parseInt(args[i]);
-        		
         	}
         }
         
